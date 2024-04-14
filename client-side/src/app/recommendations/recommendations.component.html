@@ -1,0 +1,5 @@
+<div class="flex-container">
+@for (item of movieData; track $index) {
+  <app-movie-card [movie]="item"></app-movie-card>
+}
+</div>

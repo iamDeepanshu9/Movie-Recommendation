@@ -1,0 +1,2 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const ATLAS_URI="mongodb+srv://dipanshukumar1426:<CdOiGlnyC7jMCxHM>@userdata.o8ehlsk.mongodb.net/?retryWrites=true&w=majority&appName=UserData"

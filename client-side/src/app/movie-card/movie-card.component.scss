@@ -1,0 +1,48 @@
+.movie-card {
+  width: 200px; /* Fixed width for uniform card sizes */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  background-color: #fff;
+  margin: 10px;
+  text-align: center;
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+  display: block; /* ensures no extra space around the image */
+}
+
+.movie-details {
+  padding: 10px;
+}
+
+.movie-title {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.movie-year, .movie-type {
+  margin: 0 0 5px;
+  color: #666;
+  font-size: 14px;
+}
+
+.imdb-link {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #f5c518; /* IMDb color theme */
+  color: #000;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.imdb-link:hover {
+  background-color: #e2b617;
+}

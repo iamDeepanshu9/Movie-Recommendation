@@ -1,0 +1,10 @@
+<!-- sidenav.component.html -->
+<div class="sidenav">
+  <a routerLink="/" class="logo">Movies Recommendation App</a>
+  <a routerLink="/recommendations">Recommendations</a>
+  <a *ngIf="isLoggedIn$$ | async; else loginLink" (click)="logOut()">Logout</a>
+  <ng-template #loginLink><a routerLink="/login">Login</a></ng-template>
+</div>
+<div class="content">
+  <router-outlet></router-outlet>
+</div>

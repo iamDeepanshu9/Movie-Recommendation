@@ -1,0 +1,11 @@
+@if(movie) {
+  <div class="movie-card" (click)="navigateToDetails(movie.imdbID)" style="cursor: pointer;">
+    <img [src]="movie.Poster" alt="{{ movie.Title }} Poster" class="movie-poster">
+    <div class="movie-details">
+      <h3 class="movie-title">{{ movie.Title }}</h3>
+      <p class="movie-year">{{ movie.Year }}</p>
+      <p class="movie-type">{{ movie.Type | uppercase }}</p>
+      <a href="https://www.imdb.com/title/{{ movie.imdbID }}" target="_blank" class="imdb-link">View on IMDb</a>
+    </div>
+  </div>
+}
